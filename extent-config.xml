@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>dark</theme>
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+        <!-- title of the document -->
+        <documentTitle>OMF Test Automation</documentTitle>
+        <!-- report name - displayed at top-nav -->
+        <reportName>Regression Testing Report</reportName>
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>TOP</testViewChartLocation>
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+
+                });
+            ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+
+            ]]>
+        </styles>
+        <!-- reportHeadline - displayed at top-nav -->
+        <reportHeadline></reportHeadline>
+        <!-- global ... -->
+    </configuration>
+</extentreports>
